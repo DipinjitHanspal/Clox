@@ -1,9 +1,11 @@
+#include "node.h";
 class dll
 {
-  public:
-    void add(char *str);
-    int find(char *str);
+public:
+  void add(char *str);
+  int find(char *str);
 
-  private:
-
+private:
+  node head;
+  node tail;
 }
